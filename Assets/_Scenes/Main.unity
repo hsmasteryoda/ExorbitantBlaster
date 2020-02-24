@@ -513,7 +513,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 45950dc62071e4e388008c72e45a3c9d, type: 2}
+  - {fileID: 2100000, guid: 574844ae06092a7498a7fb6f05ee7c36, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -563,8 +563,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654582541}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.3}
-  m_LocalScale: {x: 8, y: 6, z: 1}
+  m_LocalPosition: {x: 0.053, y: -0, z: 0.3}
+  m_LocalScale: {x: 15.095719, y: 5.9988604, z: 1}
   m_Children: []
   m_Father: {fileID: 260108596}
   m_RootOrder: 2
@@ -737,8 +737,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122725687}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.2}
-  m_LocalScale: {x: 8, y: 6, z: 1}
+  m_LocalPosition: {x: -0.009, y: 1.688, z: 0.2}
+  m_LocalScale: {x: 15.033213, y: 17.030588, z: 8}
   m_Children: []
   m_Father: {fileID: 260108596}
   m_RootOrder: 1
@@ -760,7 +760,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83edbb4be14bbe04ab47f6c1505aede1, type: 2}
+  - {fileID: 2100000, guid: 990bfc5e754fe1043831455e7ecc116a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -814,7 +814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af59ee068f404eb0956b45baa82469c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.08
+  speed: 0.1
 --- !u!1 &1223237851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,7 +1156,7 @@ GUIText:
   m_GameObject: {fileID: 1948539128}
   m_Enabled: 1
   serializedVersion: 3
-  m_Text: Shooting Game
+  m_Text: Exorbitant Blaster (Alpha Build)
   m_Anchor: 1
   m_Alignment: 0
   m_PixelOffset: {x: 0, y: 0}
@@ -1164,7 +1164,7 @@ GUIText:
   m_TabSize: 4
   m_Font: {fileID: 12800000, guid: 53be569948d13214199ff90eb711b10b, type: 3}
   m_Material: {fileID: 0}
-  m_FontSize: 40
+  m_FontSize: 20
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
