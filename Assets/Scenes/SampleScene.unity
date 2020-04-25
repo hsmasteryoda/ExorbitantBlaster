@@ -619,7 +619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnValues: {x: 17, y: 0, z: 16}
   smallAsteroidCount: 20
-  spawnWait: 0.5
+  spawnWait: 2
   waveWait: 2
   startWait: 2
   smallAsteroid: {fileID: 1533146960074493573, guid: 2d4e072b23cc6d34e88347db47cf3800,
