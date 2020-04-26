@@ -42,7 +42,11 @@ The following packages were added:
   com.unity.modules.wind@1.0.0
   com.unity.modules.xr@1.0.0
 
+<<<<<<< Updated upstream
 === Tue Apr 14 13:59:22 2020
+=======
+=== Sat Apr 25 14:32:43 2020
+>>>>>>> Stashed changes
 
 Packages were changed.
 Update Mode: updateDependencies
