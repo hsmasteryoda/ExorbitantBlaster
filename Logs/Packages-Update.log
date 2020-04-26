@@ -1,5 +1,9 @@
 
+<<<<<<< Updated upstream
 === Sat Feb 22 20:51:59 2020
+=======
+=== Thu Feb 27 13:33:03 2020
+>>>>>>> Stashed changes
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
@@ -41,3 +45,14 @@ The following packages were added:
   com.unity.modules.vr@1.0.0
   com.unity.modules.wind@1.0.0
   com.unity.modules.xr@1.0.0
+<<<<<<< Updated upstream
+=======
+
+=== Sun Apr 26 12:22:45 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.analytics from version 3.2.2 to 3.2.3
+>>>>>>> Stashed changes
