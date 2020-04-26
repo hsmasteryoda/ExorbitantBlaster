@@ -1,5 +1,6 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Base path: E:/Unity/2018.4.15f1/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileSnippet
@@ -53,6 +54,23 @@ Cmd: preprocess
 Cmd: preprocess
   insize=1044 outsize=941 ok=1
 Cmd: preprocess
+=======
+Base path: F:/Unity/2018.4.17f1/Editor/Data
+Cmd: initializeCompiler
+Cmd: preprocess
+  insize=435 outsize=435 ok=1
+Cmd: preprocess
+  insize=3466 outsize=1210 ok=1
+Cmd: preprocess
+  insize=3508 outsize=1607 ok=1
+Cmd: preprocess
+  insize=1731 outsize=399 ok=1
+Cmd: preprocess
+  insize=3464 outsize=1257 ok=1
+Cmd: preprocess
+  insize=1044 outsize=941 ok=1
+Cmd: preprocess
+>>>>>>> Stashed changes
   insize=10559 outsize=3882 ok=1
 Cmd: preprocess
   insize=866 outsize=1269 ok=1
@@ -62,6 +80,7 @@ Cmd: preprocess
   insize=1069 outsize=1656 ok=1
 Cmd: preprocess
   insize=2384 outsize=617 ok=1
+<<<<<<< Updated upstream
 Cmd: preprocess
   insize=1651 outsize=694 ok=1
 Cmd: preprocess
@@ -118,6 +137,23 @@ Cmd: preprocess
   insize=1393 outsize=436 ok=1
 Cmd: preprocess
 >>>>>>> Stashed changes
+=======
+Cmd: preprocess
+  insize=1651 outsize=694 ok=1
+Cmd: preprocess
+  insize=7605 outsize=2406 ok=1
+Cmd: preprocess
+  insize=1112 outsize=1642 ok=1
+Cmd: preprocess
+  insize=7773 outsize=2674 ok=1
+Cmd: preprocess
+  insize=3207 outsize=1205 ok=1
+Cmd: preprocess
+  insize=2307 outsize=1077 ok=1
+Cmd: preprocess
+  insize=1393 outsize=436 ok=1
+Cmd: preprocess
+>>>>>>> Stashed changes
   insize=1057 outsize=1644 ok=1
 Cmd: preprocess
   insize=10548 outsize=3873 ok=1
@@ -133,6 +169,9 @@ Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
