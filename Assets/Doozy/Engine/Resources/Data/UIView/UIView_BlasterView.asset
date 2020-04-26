@@ -15,4 +15,5 @@ MonoBehaviour:
   CategoryName: BlasterView
   DatabaseType: 2
   Names:
+  - High_Scores
   - Main_Menu

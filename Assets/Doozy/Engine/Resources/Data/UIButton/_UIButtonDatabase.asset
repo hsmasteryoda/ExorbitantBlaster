@@ -15,10 +15,10 @@ MonoBehaviour:
   DatabaseType: 0
   CategoryNames:
   - Custom
+  - Blaster
   - Example
   - General
-  - Blaster
   Categories:
+  - {fileID: 11400000, guid: 24af54d2574465f458caf6576ed5a62e, type: 2}
   - {fileID: 11400000, guid: 40f9e81ff80114a47a3721228ba749ed, type: 2}
   - {fileID: 11400000, guid: 785c3d116b1810246a686ec16daffbeb, type: 2}
-  - {fileID: 11400000, guid: 24af54d2574465f458caf6576ed5a62e, type: 2}

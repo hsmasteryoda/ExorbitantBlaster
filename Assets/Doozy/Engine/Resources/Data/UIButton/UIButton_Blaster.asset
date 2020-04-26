@@ -15,6 +15,7 @@ MonoBehaviour:
   CategoryName: Blaster
   DatabaseType: 0
   Names:
-  - Play Game
+  - Back to Main Menu
   - High Scores
+  - Play Game
   - Quit

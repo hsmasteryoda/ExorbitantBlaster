@@ -629,11 +629,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\Scripts\DestroyByBoundary.cs" />
-    <Compile Include="Assets\Scenes\Scripts\DestroyByContact.cs" />
+    <Compile Include="Assets\Scenes\Scripts\DestroyByContactBig.cs" />
+    <Compile Include="Assets\Scenes\Scripts\DestroyByContactSmall.cs" />
     <Compile Include="Assets\Scenes\Scripts\GameController.cs" />
     <Compile Include="Assets\Scenes\Scripts\mover.cs" />
     <Compile Include="Assets\Scenes\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scenes\Scripts\RandomRotator.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Score.cs" />
     <Compile Include="Assets\Scenes\Scripts\ScrollingBackground.cs" />
   </ItemGroup>
   <ItemGroup>

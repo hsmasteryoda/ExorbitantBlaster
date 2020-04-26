@@ -1,5 +1,5 @@
 
-=== Sat Feb 22 18:27:04 2020
+=== Thu Feb 27 13:33:03 2020
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
@@ -42,11 +42,7 @@ The following packages were added:
   com.unity.modules.wind@1.0.0
   com.unity.modules.xr@1.0.0
 
-<<<<<<< Updated upstream
-=== Tue Apr 14 13:59:22 2020
-=======
-=== Sat Apr 25 14:32:43 2020
->>>>>>> Stashed changes
+=== Sun Apr 26 12:22:45 2020
 
 Packages were changed.
 Update Mode: updateDependencies
