@@ -32,6 +32,23 @@ public class GameController : MonoBehaviour
     private bool gameOver;
     private bool restartGame;
 
+    void Update()
+    {
+        if (restartGame)
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                Application.LoadLevel(Application.loadedLevel);
+            }
+            else if (Input.GetKeyDown(KeyCode.Q)) 
+            {
+                Application.LoadLevel("Main_Menu");
+            }
+
+            
+        }   
+    }
+
     void Start()
     {
         gameOver = false;
@@ -65,7 +82,11 @@ public class GameController : MonoBehaviour
                 Instantiate(smallAsteroid, spawnPosition, spawnRotation);
                 yield return new WaitForSeconds(spawnWait1);
             }
-
+            if (gameOver)
+            {
+                restartText.text = "Press 'R' to Restart";
+                restartGame = true;
+            }
             waveText.text = "wave 2";
             yield return new WaitForSeconds(waveWait);
             waveText.text = "";
@@ -80,6 +101,11 @@ public class GameController : MonoBehaviour
                 Quaternion spawnRotation = Quaternion.identity;
                 Instantiate(bigAsteroid, spawnPosition, spawnRotation);
                 yield return new WaitForSeconds(spawnWait2);
+            }
+            if (gameOver)
+            {
+                restartText.text = "Press 'R' to Restart";
+                restartGame = true;
             }
             yield return new WaitForSeconds(textWait);
 
@@ -99,6 +125,12 @@ public class GameController : MonoBehaviour
                 Instantiate(bigAsteroid, spawnPosition, spawnRotation);
                 yield return new WaitForSeconds(spawnWait3b);
             }
+            if (gameOver)
+            {
+                restartText.text = "Press 'R' to Restart";
+                restartGame = true;
+            }
+            yield return new WaitForSeconds(textWait);
             waveText.text = "Wave 4";
             yield return new WaitForSeconds(waveWait);
             waveText.text = "";
@@ -118,6 +150,11 @@ public class GameController : MonoBehaviour
                 yield return new WaitForSeconds(spawnWait4);
                 Instantiate(smallAsteroid, spawnPosition, spawnRotation);
                 yield return new WaitForSeconds(spawnWait4);
+            }
+            if (gameOver)
+            {
+                restartText.text = "Press 'R' to Restart or 'Q' to Quit";
+                restartGame = true;
             }
             yield return new WaitForSeconds(textWait);
             congratText.text = "Congratulation Winner !!!!!";

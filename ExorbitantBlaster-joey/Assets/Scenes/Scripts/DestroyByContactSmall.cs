@@ -20,6 +20,10 @@ public class DestroyByContactSmall : MonoBehaviour
         {
             return;
         }
+        if (other.tag == "Player")
+        {
+            gameController.GameOver();
+        }
         Destroy(other.gameObject);
         Destroy(gameObject);
         Score.scoreValue += 10;
