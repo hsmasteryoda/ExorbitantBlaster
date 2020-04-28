@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: ac5ea235b22f6e44aaf177f274092288
+timeCreated: 1488908746
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm1_L
+    100002: arm1_R
+    100004: arm2_L
+    100006: arm2_L_end
+    100008: arm2_R
+    100010: arm2_R_end
+    100012: Armature
+    100014: base
+    100016: body
+    100018: butt_L
+    100020: butt_L_end
+    100022: butt_R
+    100024: butt_R_end
+    100026: //RootNode
+    100028: cat
+    100030: ear1_L
+    100032: ear1_R
+    100034: ear2_L
+    100036: ear2_L_end
+    100038: ear2_R
+    100040: ear2_R_end
+    100042: head
+    100044: leg1_L
+    100046: leg1_R
+    100048: leg2_L
+    100050: leg2_L_end
+    100052: leg2_R
+    100054: leg2_R_end
+    100056: nose
+    100058: nose_end
+    100060: torso
+    400000: arm1_L
+    400002: arm1_R
+    400004: arm2_L
+    400006: arm2_L_end
+    400008: arm2_R
+    400010: arm2_R_end
+    400012: Armature
+    400014: base
+    400016: body
+    400018: butt_L
+    400020: butt_L_end
+    400022: butt_R
+    400024: butt_R_end
+    400026: cat
+    400028: //RootNode
+    400030: ear1_L
+    400032: ear1_R
+    400034: ear2_L
+    400036: ear2_L_end
+    400038: ear2_R
+    400040: ear2_R_end
+    400042: head
+    400044: leg1_L
+    400046: leg1_R
+    400048: leg2_L
+    400050: leg2_L_end
+    400052: leg2_R
+    400054: leg2_R_end
+    400056: nose
+    400058: nose_end
+    400060: torso
+    4300000: cat
+    7400000: Armature|die
+    7400002: Armature|hop
+    7400004: Armature|hurt
+    7400006: Armature|idle
+    9500000: //RootNode
+    13700000: cat
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|die
+      takeName: Armature|die
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/base
+        weight: 1
+      - path: Armature/base/body
+        weight: 1
+      - path: Armature/base/body/butt_L
+        weight: 1
+      - path: Armature/base/body/butt_L/butt_L_end
+        weight: 1
+      - path: Armature/base/body/butt_R
+        weight: 1
+      - path: Armature/base/body/butt_R/butt_R_end
+        weight: 1
+      - path: Armature/base/body/leg1_L
+        weight: 1
+      - path: Armature/base/body/leg1_L/leg2_L
+        weight: 1
+      - path: Armature/base/body/leg1_L/leg2_L/leg2_L_end
+        weight: 1
+      - path: Armature/base/body/leg1_R
+        weight: 1
+      - path: Armature/base/body/leg1_R/leg2_R
+        weight: 1
+      - path: Armature/base/body/leg1_R/leg2_R/leg2_R_end
+        weight: 1
+      - path: Armature/base/torso
+        weight: 1
+      - path: Armature/base/torso/arm1_L
+        weight: 1
+      - path: Armature/base/torso/arm1_L/arm2_L
+        weight: 1
+      - path: Armature/base/torso/arm1_L/arm2_L/arm2_L_end
+        weight: 1
+      - path: Armature/base/torso/arm1_R
+        weight: 1
+      - path: Armature/base/torso/arm1_R/arm2_R
+        weight: 1
+      - path: Armature/base/torso/arm1_R/arm2_R/arm2_R_end
+        weight: 1
+      - path: Armature/base/torso/head
+        weight: 1
+      - path: Armature/base/torso/head/ear1_L
+        weight: 1
+      - path: Armature/base/torso/head/ear1_L/ear2_L
+        weight: 1
+      - path: Armature/base/torso/head/ear1_L/ear2_L/ear2_L_end
+        weight: 1
+      - path: Armature/base/torso/head/ear1_R
+        weight: 1
+      - path: Armature/base/torso/head/ear1_R/ear2_R
+        weight: 1
+      - path: Armature/base/torso/head/ear1_R/ear2_R/ear2_R_end
+        weight: 1
+      - path: Armature/base/torso/head/nose
+        weight: 1
+      - path: Armature/base/torso/head/nose/nose_end
+        weight: 1
+      - path: cat
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|hop
+      takeName: Armature|hop
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/base
+        weight: 1
+      - path: Armature/base/body
+        weight: 1
+      - path: Armature/base/body/butt_L
+        weight: 1
+      - path: Armature/base/body/butt_L/butt_L_end
+        weight: 1
+      - path: Armature/base/body/butt_R
+        weight: 1
+      - path: Armature/base/body/butt_R/butt_R_end
+        weight: 1
+      - path: Armature/base/body/leg1_L
+        weight: 1
+      - path: Armature/base/body/leg1_L/leg2_L
+        weight: 1
+      - path: Armature/base/body/leg1_L/leg2_L/leg2_L_end
+        weight: 1
+      - path: Armature/base/body/leg1_R
+        weight: 1
+      - path: Armature/base/body/leg1_R/leg2_R
+        weight: 1
+      - path: Armature/base/body/leg1_R/leg2_R/leg2_R_end
+        weight: 1
+      - path: Armature/base/torso
+        weight: 1
+      - path: Armature/base/torso/arm1_L
+        weight: 1
+      - path: Armature/base/torso/arm1_L/arm2_L
+        weight: 1
+      - path: Armature/base/torso/arm1_L/arm2_L/arm2_L_end
+        weight: 1
+      - path: Armature/base/torso/arm1_R
+        weight: 1
+      - path: Armature/base/torso/arm1_R/arm2_R
+        weight: 1
+      - path: Armature/base/torso/arm1_R/arm2_R/arm2_R_end
+        weight: 1
+      - path: Armature/base/torso/head
+        weight: 1
+      - path: Armature/base/torso/head/ear1_L
+        weight: 1
+      - path: Armature/base/torso/head/ear1_L/ear2_L
+        weight: 1
+      - path: Armature/base/torso/head/ear1_L/ear2_L/ear2_L_end
+        weight: 1
+      - path: Armature/base/torso/head/ear1_R
+        weight: 1
+      - path: Armature/base/torso/head/ear1_R/ear2_R
+        weight: 1
+      - path: Armature/base/torso/head/ear1_R/ear2_R/ear2_R_end
+        weight: 1
+      - path: Armature/base/torso/head/nose
+        weight: 1
+      - path: Armature/base/torso/head/nose/nose_end
+        weight: 1
+      - path: cat
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|hurt
+      takeName: Armature|hurt
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/base
+        weight: 1
+      - path: Armature/base/body
+        weight: 1
+      - path: Armature/base/body/butt_L
+        weight: 1
+      - path: Armature/base/body/butt_L/butt_L_end
+        weight: 1
+      - path: Armature/base/body/butt_R
+        weight: 1
+      - path: Armature/base/body/butt_R/butt_R_end
+        weight: 1
+      - path: Armature/base/body/leg1_L
+        weight: 1
+      - path: Armature/base/body/leg1_L/leg2_L
+        weight: 1
+      - path: Armature/base/body/leg1_L/leg2_L/leg2_L_end
+        weight: 1
+      - path: Armature/base/body/leg1_R
+        weight: 1
+      - path: Armature/base/body/leg1_R/leg2_R
+        weight: 1
+      - path: Armature/base/body/leg1_R/leg2_R/leg2_R_end
+        weight: 1
+      - path: Armature/base/torso
+        weight: 1
+      - path: Armature/base/torso/arm1_L
+        weight: 1
+      - path: Armature/base/torso/arm1_L/arm2_L
+        weight: 1
+      - path: Armature/base/torso/arm1_L/arm2_L/arm2_L_end
+        weight: 1
+      - path: Armature/base/torso/arm1_R
+        weight: 1
+      - path: Armature/base/torso/arm1_R/arm2_R
+        weight: 1
+      - path: Armature/base/torso/arm1_R/arm2_R/arm2_R_end
+        weight: 1
+      - path: Armature/base/torso/head
+        weight: 1
+      - path: Armature/base/torso/head/ear1_L
+        weight: 1
+      - path: Armature/base/torso/head/ear1_L/ear2_L
+        weight: 1
+      - path: Armature/base/torso/head/ear1_L/ear2_L/ear2_L_end
+        weight: 1
+      - path: Armature/base/torso/head/ear1_R
+        weight: 1
+      - path: Armature/base/torso/head/ear1_R/ear2_R
+        weight: 1
+      - path: Armature/base/torso/head/ear1_R/ear2_R/ear2_R_end
+        weight: 1
+      - path: Armature/base/torso/head/nose
+        weight: 1
+      - path: Armature/base/torso/head/nose/nose_end
+        weight: 1
+      - path: cat
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|idle
+      takeName: Armature|idle
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/base
+        weight: 1
+      - path: Armature/base/body
+        weight: 1
+      - path: Armature/base/body/butt_L
+        weight: 1
+      - path: Armature/base/body/butt_L/butt_L_end
+        weight: 1
+      - path: Armature/base/body/butt_R
+        weight: 1
+      - path: Armature/base/body/butt_R/butt_R_end
+        weight: 1
+      - path: Armature/base/body/leg1_L
+        weight: 1
+      - path: Armature/base/body/leg1_L/leg2_L
+        weight: 1
+      - path: Armature/base/body/leg1_L/leg2_L/leg2_L_end
+        weight: 1
+      - path: Armature/base/body/leg1_R
+        weight: 1
+      - path: Armature/base/body/leg1_R/leg2_R
+        weight: 1
+      - path: Armature/base/body/leg1_R/leg2_R/leg2_R_end
+        weight: 1
+      - path: Armature/base/torso
+        weight: 1
+      - path: Armature/base/torso/arm1_L
+        weight: 1
+      - path: Armature/base/torso/arm1_L/arm2_L
+        weight: 1
+      - path: Armature/base/torso/arm1_L/arm2_L/arm2_L_end
+        weight: 1
+      - path: Armature/base/torso/arm1_R
+        weight: 1
+      - path: Armature/base/torso/arm1_R/arm2_R
+        weight: 1
+      - path: Armature/base/torso/arm1_R/arm2_R/arm2_R_end
+        weight: 1
+      - path: Armature/base/torso/head
+        weight: 1
+      - path: Armature/base/torso/head/ear1_L
+        weight: 1
+      - path: Armature/base/torso/head/ear1_L/ear2_L
+        weight: 1
+      - path: Armature/base/torso/head/ear1_L/ear2_L/ear2_L_end
+        weight: 1
+      - path: Armature/base/torso/head/ear1_R
+        weight: 1
+      - path: Armature/base/torso/head/ear1_R/ear2_R
+        weight: 1
+      - path: Armature/base/torso/head/ear1_R/ear2_R/ear2_R_end
+        weight: 1
+      - path: Armature/base/torso/head/nose
+        weight: 1
+      - path: Armature/base/torso/head/nose/nose_end
+        weight: 1
+      - path: cat
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
